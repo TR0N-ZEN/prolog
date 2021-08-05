@@ -1,11 +1,11 @@
 # facts
 
-are axioms - so the undeniable truth set by the programmer.
-```prolog
-frau(eva).
-```
-Expresses that eva is a frau.
-So if someone ask if eva is a frau the answer can be given and it is yes.
+are axioms - so the undeniable truth which is set by the programmer.
+>```prolog
+>frau(eva).
+>```
+Expresses that eva is a frau.  
+So if someone ask if eva is a frau the answer can be given and it is yes.  
 The question would look like this:
 ```prolog
 ? - frau(eva).
@@ -28,8 +28,8 @@ mutter(eva, tobias).
 mutter(daniela, frank).
 mutter(daniela, ulrike).
 ```
-These facts can be considered sets (unordered lists with no double occurences of elements as defined in mathematics) of arguments whilst the arguments here are names, like:  
->
+These facts can be considered sets (unordered lists with no double occurences of elements as defined in mathematics)  
+of arguments whilst the arguments here are names, like:  
 >frau = {eva, daniela, ulrike},  
 >mann = {adam, tobias, frank},  
 >vater = {(adam, tobias), (tobias, frank), (tobias, ulrike)},  
