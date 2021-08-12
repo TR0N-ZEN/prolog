@@ -45,18 +45,18 @@ $$
 
 $$
 	\lang pat \rang ::=
-		\lang varid \rang \hat{|}
-		\lang conid \rang \hat{|}
-		\lang conid \rang
-			( \lang pat \rang  \hat{\{} , \lang pat \rang \hat{\}} )
+		\lang varid \rang \ \hat{|} \ 
+		\lang conid \rang \ \hat{|} \ 
+		\lang conid \rang\ 
+			(\ \lang pat \rang\ \hat{\{} , \lang pat \rang \hat{\}}\ )
 \tag{patterns}
 $$
 
 $$
 	\lang lit \rang ::=
-		\lang predid \rang \hat{|}
-		\lang predid \rang
-			( \lang pat \rang  \hat{\{} , \lang pat \rang \hat{\}} )
+		\lang predid \rang\ \hat{|}\ 
+		\lang predid \rang\ 
+			(\ \lang pat \rang\ \hat{\{} , \lang pat \rang \hat{\}}\ )
 \tag{(positive) literals}
 $$
 
